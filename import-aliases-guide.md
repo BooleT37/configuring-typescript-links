@@ -1,3 +1,9 @@
+# Способ 1 (простой): симлинк
+Способ предполагает создание симлинка в папке node_modules. Не поддерживает специальные символы (напрмиер, @), нельзя сделать один алиас на несколько папок, не работает на Windows. Но зато легко и непринужденно настраивается.
+* **[Ссылка](https://github.com/alfa-laboratory/arui-scripts/blob/b2a8e16557a914e629b463d5f56440e33d8d974c/commands/postinstall/index.js)
+Это пример из библиотеки arui-scripts, используемой в Альфа-Банке. Библиотека подддерживается @Heymdall
+
+# Способ 1 (сложный): алиасы
 1. **TypeScript** - tsconfig.json:
     * Указать `baseUrl`
     * Прописать алиасы в параметр `path` в формате `"alias/*": ["blob/*"]`. Подробнее - в [документации](https://www.typescriptlang.org/docs/handbook/module-resolution.html#path-mapping)<br/>
