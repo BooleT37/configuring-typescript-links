@@ -3,7 +3,7 @@
 ### [Ссылка](https://github.com/alfa-laboratory/arui-scripts/blob/b2a8e16557a914e629b463d5f56440e33d8d974c/commands/postinstall/index.js)
 Это пример из библиотеки arui-scripts, используемой в Альфа-Банке. Библиотека подддерживается [@Heymdall](https://github.com/Heymdall)
 
-# Способ 1 (сложный): алиасы
+# Способ 2 (сложный): алиасы
 1. **TypeScript** - tsconfig.json:
     * Указать `baseUrl`
     * Прописать алиасы в параметр `path` в формате `"alias/*": ["blob/*"]`. Подробнее - в [документации](https://www.typescriptlang.org/docs/handbook/module-resolution.html#path-mapping)<br/>
