@@ -6,3 +6,4 @@
 * **[issue](https://github.com/microsoft/TypeScript/issues/1863)** про символы в интерфейсах
 * **[Поддержка](https://kangax.github.io/compat-table/es6/)** различных фич (начиная с es6) связкой TypeScript + core-js
 * **[Алгоритм](import-aliases-guide.md)** по настройке алиасов для импортов
+* **[tsconfig.json](tsconfig.json)** для проектов на babel-preset-typescript
